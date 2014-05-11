@@ -255,6 +255,6 @@ class AssetDiagnosis extends JApplicationWeb
 			->appendBody('</html>');
 	}
 }
-JWeb::getInstance('AssetDiagnosis')->execute();
+JApplicationWeb::getInstance('AssetDiagnosis')->execute();
 
 
